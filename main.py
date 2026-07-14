@@ -1,5 +1,14 @@
+from app.audio.recorder import AudioRecorder
+
+
 def main():
-    print("Hello from nova-voice-agent!")
+
+    recorder = AudioRecorder()
+
+    recorder.record(
+        duration=5,
+        filename="audio.wav",
+    )
 
 
 if __name__ == "__main__":
