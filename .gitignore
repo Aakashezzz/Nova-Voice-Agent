@@ -1,0 +1,30 @@
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# --- Env ---
+.env
+*.env.local
+
+# --- Models (large binaries, downloaded not committed) ---
+backend/models/**/*.onnx
+backend/models/**/*.onnx.json
+backend/models/**/*.bin
+
+# --- Node / frontend ---
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# --- OS / editor ---
+.DS_Store
+.vscode/
+.idea/
+
+# --- Logs ---
+*.log

@@ -1,0 +1,1 @@
+{"root":["./src/App.tsx","./src/api.ts","./src/main.tsx","./src/components/MicOrb.tsx","./src/components/StatusBar.tsx","./src/components/TranscriptPanel.tsx","./src/hooks/useAudioRecorder.ts","./src/hooks/useVoiceAssistant.ts","./src/types/index.ts"],"version":"5.9.3"}
